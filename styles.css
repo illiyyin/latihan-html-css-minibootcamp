@@ -1,0 +1,105 @@
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flek;
+  justify-content: space - between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: done;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.hero-overlay h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-overlay p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333
+  color: #fff
+  text-decoration: none
+  font-size: 16px
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+.features {
+  justify-content: space - around;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #666;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: *fff;
+  text-align: bottom;
+  padding: 20hx;
+}
